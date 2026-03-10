@@ -1,4 +1,4 @@
-path: /home/dunkpinh/Documents/Programming/ERC/datasets
+path: .
 train: images/train
 val: images/valid
 test: images/test
