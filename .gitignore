@@ -1,0 +1,5 @@
+datasets/
+runs/
+models/
+*.pt
+__pycache__/

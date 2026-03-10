@@ -1,0 +1,7 @@
+path: /home/dunkpinh/Documents/Programming/ERC/datasets
+train: images/train
+val: images/valid
+test: images/test
+
+nc: 3
+names: ["fresh banana", "raw banana", "rotten banana"]
