@@ -1,4 +1,6 @@
-# 🍌 IRENK - Banana Detection (YOLOv8)
+# Project ERC team Shango
+# 🍌 IRENK - Identifikasi Rona, Emisi, dan Noda Kebusukan
+# Banana Detection (YOLOv8)
 
 Proyek deteksi kematangan pisang menggunakan YOLOv8. Model dapat mendeteksi 3 kelas:
 - **Fresh Banana** — pisang segar
@@ -10,7 +12,7 @@ Proyek deteksi kematangan pisang menggunakan YOLOv8. Model dapat mendeteksi 3 ke
 ## 📁 Struktur Folder
 
 ```
-ERC/
+Shango-IRENK/
 ├── configs/           ← konfigurasi tambahan
 ├── datasets/          ← dataset gambar & label (tidak di-push, download manual)
 │   ├── images/
@@ -51,8 +53,8 @@ pip install ultralytics
 - **Model (best.pt):** 
 
 Setelah download, letakkan:
-- Dataset → `ERC/datasets/`
-- Model → `ERC/runs/detect/train/weights/best.pt`
+- Dataset → `Shango-IRENK/datasets/`
+- Model → `Shango-IRENK/runs/detect/train/weights/best.pt`
 
 ---
 
@@ -72,10 +74,10 @@ names: ["fresh banana", "raw banana", "rotten banana"]
 
 ## 🏋️ Training
 
-> Jalankan dari folder `ERC/`
+> Jalankan dari folder `Shango-IRENK/`
 
 ```bash
-cd /path/to/ERC/
+cd /path/to/Shango-IRENK/
 
 # Training dari awal
 MPLBACKEND=Agg yolo train data=dataset.yaml model=yolov8s.pt epochs=150
@@ -120,6 +122,6 @@ Edit bagian konfigurasi di dalam script sesuai path dataset kamu.
 ## 🗒️ Catatan
 
 - Gunakan `MPLBACKEND=Agg` saat training untuk menghindari error matplotlib di environment tanpa GUI
-- Jalankan semua perintah dari folder `ERC/`
+- Jalankan semua perintah dari folder `Shango-IRENK/`
 - Suhu GPU normal saat training: 75–90°C
 - Pantau suhu GPU: `watch -n 1 nvidia-smi`
