@@ -50,7 +50,7 @@ pip install ultralytics
 ## 📦 Dataset & Model
 
 - **Dataset:** 
-- **Model (best.pt):** 
+- **Model (best.pt):** https://drive.google.com/drive/folders/1GieAJMuq-nLIfARA0c5Ej1w3kEOq5XOf?hl=ID&q=parent:1GieAJMuq-nLIfARA0c5Ej1w3kEOq5XOf%20owner:me
 
 Setelah download, letakkan:
 - Dataset → `Shango-IRENK/datasets/`
